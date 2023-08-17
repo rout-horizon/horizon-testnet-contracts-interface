@@ -110,7 +110,9 @@ const getHorizonContracts = (
       if (target.name === 'Synthetix') {
         target.address = targets.ProxyERC20.address;
       } else if (target.name === 'ZassetzUSD') {
-        target.address = targets.ProxyERC20zUSD.address;
+        if (network === 'mainnet') {
+          target.address = targets.ProxyERC20zUSD.address;
+        } else target.address = targets.ProxyzUSD.address;
       } else if (target.name === 'FeePool') {
         target.address = targets.ProxyFeePool.address;
       } else if (target.name.match(/Zasset(z|i)[a-zA-Z]+$/)) {
