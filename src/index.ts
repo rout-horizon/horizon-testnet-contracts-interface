@@ -108,7 +108,9 @@ const getHorizonContracts = (
   return Object.values(targets)
     .map((target) => {
       if (target.name === 'Synthetix') {
-        target.address = targets.ProxyERC20.address;
+        if (network === 'mainnet') {
+          target.address = targets.ProxyERC20.address;
+        } else target.address = targets.ProxySynthetix.address;
       } else if (target.name === 'ZassetzUSD') {
         if (network === 'mainnet') {
           target.address = targets.ProxyERC20zUSD.address;

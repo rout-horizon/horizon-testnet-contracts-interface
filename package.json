@@ -1,6 +1,6 @@
 {
   "name": "@rout-horizon/horizon-testnet-contracts-interface",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A library for interacting with Horizon smart contracts",
   "source": "./src/index.ts",
   "main": "./build/node/src/index.js",
@@ -34,7 +34,7 @@
     "url": "https://github.com/rout-horizon/horizon-testnet-contracts-interface/issues"
   },
   "dependencies": {
-    "@horizon-protocol/smart-contract": "npm:@rout-horizon/horizon-testnet@^2.7.0",
+    "@horizon-protocol/smart-contract": "npm:@rout-horizon/horizon-testnet@^2.8.0",
     "ethers": "5.5.3",
     "lodash": "^4.17.21",
     "web3-utils": "1.2.11",
