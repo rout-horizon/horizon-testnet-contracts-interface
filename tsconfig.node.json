@@ -16,5 +16,5 @@
     "baseUrl": "src",
     "lib": ["ESNext"]
   },
-  "include": ["src"]
+  "include": ["./src/*"]
 }
