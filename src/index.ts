@@ -8,7 +8,7 @@ import {
   getSuspensionReasons,
   getStakingRewards,
   getFuturesMarkets,
-  getPerpsMarkets,
+	getPerpsMarkets,
   getPerpsV2ProxiedMarkets,
   networks,
   networkToChainId,
@@ -42,8 +42,6 @@ import { Synths as TestnetSynths } from '../generated/testnet';
 
 import { ERRORS } from './constants';
 
-
-  console.log("getPerpsMarkets", getPerpsMarkets);
 const horizon = ({ networkId, network, signer, provider }: Config): HorizonJS => {
   const [currentNetwork, currentNetworkId, useOvm] = selectNetwork(networkId, network);
   return {
