@@ -1896,10 +1896,10 @@
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
 
-"@horizon-protocol/smart-contract@npm:@rout-horizon/horizon-testnet@^2.12.0":
-  version "2.12.0"
-  resolved "https://registry.npmjs.org/@rout-horizon/horizon-testnet/-/horizon-testnet-2.12.0.tgz"
-  integrity sha512-8wPtTOhxYsgt3hi2xQKdv7SmREAx4yq+T5Cyp66JrJJ7UZYNZ3KymeQwiZRsPaVyzJcSwrU+x8Q3Zdyzc+SAVg==
+"@horizon-protocol/smart-contract@npm:@rout-horizon/horizon-testnet@^2.13.0":
+  version "2.13.0"
+  resolved "https://registry.npmjs.org/@rout-horizon/horizon-testnet/-/horizon-testnet-2.13.0.tgz"
+  integrity sha512-kyHiWVoE6+m+XxRdaM+1pr8eMc99HaxDJpndgNrombJIdhvMwydcopmBbp4o28Fmqj6ZqcLAgdZM/uQ5o/mSMQ==
   dependencies:
     "@eth-optimism/smock" "1.1.10"
     "@nomiclabs/hardhat-etherscan" "^3.1.0"
